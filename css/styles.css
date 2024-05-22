@@ -72,8 +72,9 @@ body {
     color: var(--color-2);
     display: flex;
     font-family: var(--font-bd);
-    min-height: 100vh;
     justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
     nav {
         position: fixed;
         top: 10px;
@@ -173,6 +174,7 @@ body {
             flex-direction: column;
             align-items: center;
             margin-top: 2rem;
+            margin-bottom: 2rem;
             justify-content: center;
             gap: 0.6rem;
             a:is(:link, :visited) {
