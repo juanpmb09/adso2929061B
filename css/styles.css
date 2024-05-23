@@ -150,6 +150,7 @@ body {
         }
         section {
             padding: 1rem;
+            background-color: var(--color);
             h3 {
                 border-bottom: 2px dotted;
 
